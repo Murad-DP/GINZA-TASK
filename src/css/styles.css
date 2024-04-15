@@ -433,7 +433,6 @@ header .slick ul li button {
   justify-content: space-between;
   border-top: 1px solid #ebebeb;
   padding-top: 5px;
-  padding-bottom: 5px;
 }
 .featured-product .col h2 {
   font-weight: 500;
@@ -626,4 +625,8 @@ header .slick ul li button {
 .featured-product .product-price .main-discounted {
   text-decoration: line-through;
   margin-left: 15px;
+}
+.featured-product .boxs {
+  display: flex;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=styles.css.map */
