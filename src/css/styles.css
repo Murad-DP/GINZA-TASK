@@ -425,6 +425,10 @@ header .slick ul li button {
 .featured-product {
   width: 100%;
   padding: 80px 100px 45px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .featured-product .col {
   width: 96.5%;
@@ -625,8 +629,128 @@ header .slick ul li button {
 .featured-product .product-price .main-discounted {
   text-decoration: line-through;
   margin-left: 15px;
+  color: #929292;
 }
 .featured-product .boxs {
   display: flex;
   flex-wrap: wrap;
+}
+
+.container-fluid {
+  padding-top: 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.container-fluid .image {
+  position: relative;
+}
+.container-fluid .image .writing {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+.container-fluid .image .writing h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.container-fluid .image .writing h3 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.container-fluid .image .writing a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #808080;
+}
+.container-fluid .image .writing a:hover {
+  color: #ee3232;
+  transition: 0.4s ease-out;
+}
+.container-fluid .image .writing a i {
+  color: red;
+  margin-left: 10px;
+}
+.container-fluid .image img {
+  height: 310px;
+  width: 659px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#Testimonial {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+#Testimonial .row {
+  margin-left: 20px;
+  width: 82.5%;
+  height: 454px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+#Testimonial .row .testimonialimg {
+  height: 70px;
+  width: 70px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50%;
+}
+#Testimonial .row .loremP {
+  width: 709px;
+  height: 78px;
+  text-align: center;
+  color: #707070;
+  font-size: 13px;
+  line-height: 2;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+#Testimonial .row .icon {
+  width: 29px;
+  height: 22px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 10px;
+}
+#Testimonial .row .testimonial-author {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #292929;
+}
+#Testimonial .row span {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-size: 13px;
+  color: #929292;
+}
+#Testimonial .row ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+#Testimonial .row ul li button {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: #ee3333;
+}
+
+.different {
+  display: inline-block;
+  border: 2px solid #ee3333 !important;
+  background-color: #fff !important;
 }/*# sourceMappingURL=styles.css.map */

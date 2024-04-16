@@ -1,0 +1,84 @@
+#Testimonial {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+
+    .row {
+        margin-left: 20px;
+        width: 82.5%;
+        height: 454px;
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #f8f9fa;
+
+        .testimonialimg {
+            height: 70px;
+            width: 70px;
+            object-fit: contain;
+            border-radius: 50%;
+        }
+
+        .loremP {
+            width: 709px;
+            height: 78px;
+            text-align: center;
+            color: #707070;
+            font-size: 13px;
+            line-height: 2;
+            margin-top: 30px;
+            margin-bottom: 16px;
+        }
+
+        .icon {
+            width: 29px;
+            height: 22px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+
+        .testimonial-author {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 20px;
+            color: #292929;
+        }
+
+        span {
+            margin-top: 20px;
+            margin-bottom: 25px;
+            font-size: 13px;
+            color: #929292;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 7px;
+            
+
+            li {
+                button {
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 50%;
+                    border: none;
+                    cursor: pointer;
+                    background-color: #ee3333;
+                }
+            }
+        }
+    }
+}
+  
+.different{
+    display: inline-block;
+    border: 2px solid #ee3333!important;
+    background-color: #fff !important;
+
+}

@@ -1,6 +1,10 @@
 .featured-product {
     width: 100%;
     padding: 80px 100px 45px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 
     .col {
@@ -251,6 +255,7 @@
         .main-discounted {
             text-decoration: line-through;
             margin-left: 15px;
+            color: #929292;
         }
     }
 
