@@ -1,0 +1,41 @@
+.responsive-header {
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+
+    img {
+        width: 107px;
+        height: 30.7px;
+        /* margin-left: 50px; */
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .responsive-header {
+        display: flex;
+        overflow: hidden;
+        background-color: #fff;
+    }
+
+    header {
+        .container {
+            display: none;
+        }
+
+        .header-menu{
+            display: none;
+        }
+    }
+
+
+
+
+}
