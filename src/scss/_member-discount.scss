@@ -1,0 +1,101 @@
+.member-discount {
+    width: 100%;
+    padding: 65px 88.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #929292;
+    
+
+    .column-inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 100px;
+
+        .newsLetter {
+            margin: 0 auto;
+            display: block;
+
+            p {
+                font-size: 13px;
+                color: #929292;
+                display: inline-block;
+                width: 1170px;
+                text-align: center;
+                padding-bottom: 10px;
+
+            }
+
+            .omg{
+                padding: 10px 0;
+            }
+
+            h2 {
+                font-size: 1.846em;
+                font-weight: 500;
+                line-height: 1.2;
+                margin-bottom: 0;
+                margin-top: 5px;
+                font-family: "Poppins", sans-serif;
+                text-align: center;
+                padding: 5px 0;
+
+            }
+        }
+
+        form {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            input {
+                background: 0 0;
+                border: 2px solid #ebebeb;
+                border-right: none;
+                color: #9d9d9d;
+                float: left;
+                font-size: 1em;
+                height: 55px;
+                line-height: 51px;
+                max-width: 100%;
+                padding: 0 20px;
+                position: relative;
+                text-align: left;
+                white-space: nowrap;
+                width: 420px;
+                text-align: center;
+                margin-left: 250px;
+            }
+
+            .placeholder{
+                
+            }
+
+            a{
+               
+                text-align: center;       
+                padding-left: 20px;
+                border: 2px solid #ebebeb;
+                border-left: none;
+                color: #323232;
+                cursor: pointer;
+               
+                font-size: 1em;
+                font-weight: 600;
+                height: 55px;
+                line-height: 51px;
+        
+                outline: none;
+                padding: 0 20px;
+               
+                text-align: center;
+                text-transform: uppercase;
+                border-left: 1px solid #ebebeb;
+           
+            }
+        }
+    }
+}
